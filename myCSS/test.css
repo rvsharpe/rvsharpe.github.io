@@ -7,7 +7,7 @@
 /* GLOBAL STYLES
 -----------------------------------------*/
 html, body {
-	height: 100%;
+	height: 90%;
 }
 
 body {
@@ -24,12 +24,11 @@ h1, h2 {
 }
 
 a {
-	color: #bf6d50;
 	text-decoration: none; /* removes default underline */
 }
 
 a:hover {
-	background: rgba(255, 255, 255, 0.3);
+	background: #D8F6CE;
 }
 
 header, main, nav {
@@ -59,11 +58,13 @@ header {
 }
 
 nav {
-	float: right;
+	clear: both;
+	font-weight: 700;
 }
 
 nav a {
-	padding: 20px;
+	color: #31B404;
+	padding: 2px;
 }
 
 /* HOME PAGE STYLES
@@ -78,7 +79,7 @@ nav a {
 .profile-img {
 	float: left;
 	margin-right: 20px;
-	width: 50%;
+	width: 40%;
 }
 
 blockquote {
@@ -153,6 +154,7 @@ footer, .page-wrap:after {
 }
 
 footer {
+	clear: both;
 	background: rgba(255, 255, 255, 0.8);
 	text-align: center;
 	font-size: 13px;
