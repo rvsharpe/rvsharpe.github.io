@@ -19,9 +19,9 @@ body {
 }
 h1,
 h2 {
-  font-family: "Nixie One", serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300; /* removes default bold styles */
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin: 0; /* removes default space */
 }
 a {
@@ -76,6 +76,7 @@ nav a {
   margin-right: 20px;
   width: 50%;
 }
+
 blockquote {
   clear: both;
   padding: 5px 150px 0;
