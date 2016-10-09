@@ -82,6 +82,13 @@ nav a {
 	width: 40%;
 }
 
+.other-img {
+	float: right;
+	margin-right: 20px;
+	width: 40%;
+}
+
+
 blockquote {
 	clear: both;
 	padding: 5px 150px 0;
