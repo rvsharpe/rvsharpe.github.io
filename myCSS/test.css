@@ -6,7 +6,9 @@
 
 /* GLOBAL STYLES
 -----------------------------------------*/
-html, body {
+
+html,
+body {
 	height: 90%;
 }
 
@@ -14,24 +16,50 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: "Open Sans", sans-serif;
-	color: #333333; /* dark, almost black, gray colour */
+	color: #333333;
+	/* dark, almost black, gray colour */
 }
 
-h1, h2 {
+h1,
+h2 {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 300; /* removes default bold styles */
-	margin: 0; /* removes default space */
+	font-weight: 300;
+	/* removes default bold styles */
+	margin: 0;
+	/* removes default space */
+}
+
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	/* removes default bold styles */
+	margin: 0;
+	/* removes default space */
+	text-indent: 10px;
+}
+
+h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	/* removes default bold styles */
+	margin-top: 0px;
+	margin-bottom: 15px;
+	text-indent: 10px;
+
 }
 
 a {
-	text-decoration: none; /* removes default underline */
+	text-decoration: none;
+	/* removes default underline */
 }
 
 a:hover {
 	background: #D8F6CE;
 }
 
-header, main, nav {
+header,
+main,
+nav {
 	padding: 20px 30px;
 }
 
@@ -45,6 +73,7 @@ main {
 
 /* HEADER STYLES
 -----------------------------------------*/
+
 header h1 {
 	font-size: 48px;
 }
@@ -53,11 +82,21 @@ header h2 {
 	font-size: 24px;
 }
 
+header h3 {
+	font-size: 24px;
+}
+
+header h4 {
+	font-size: 24px;
+}
+
+header h5 {
+	font-size: 45px;
+}
+
 header {
 	float: left;
 }
-
-
 
 nav {
 	clear: both;
@@ -71,6 +110,7 @@ nav a {
 
 /* HOME PAGE STYLES
 -----------------------------------------*/
+
 .home {
 	background: url(../images/background-6.jpg) no-repeat 50%;
 	background-size: cover;
@@ -78,6 +118,7 @@ nav a {
 
 /* ABOUT STYLES
 -----------------------------------------*/
+
 .profile-img {
 	float: left;
 	margin-right: 20px;
@@ -89,7 +130,6 @@ nav a {
 	margin-right: 20px;
 	width: 40%;
 }
-
 
 blockquote {
 	clear: both;
@@ -104,6 +144,7 @@ blockquote p {
 
 /* CONTACT STYLES
 -----------------------------------------*/
+
 .contact {
 	background: url(../images/background-8.jpg) no-repeat 50%;
 	background-size: cover;
@@ -120,11 +161,13 @@ blockquote p {
 }
 
 /* form styles */
+
 form {
 	width: 400px;
 }
 
-input, textarea {
+input,
+textarea {
 	border: 1px solid #BF6D50;
 	width: 400px;
 	margin-bottom: 10px;
@@ -147,10 +190,13 @@ button {
 
 /* FOOTER STYLES
 -----------------------------------------*/
+
 /* Sticky Footer - http://css-tricks.com/snippets/css/sticky-footer */
+
 .page-wrap {
 	min-height: 100%;
-	margin-bottom: -55px; /* must be the same height as footer */
+	margin-bottom: -55px;
+	/* must be the same height as footer */
 }
 
 .page-wrap:after {
@@ -158,8 +204,10 @@ button {
 	display: block;
 }
 
-footer, .page-wrap:after {
-	height: 55px; /* however tall you want the footer to be */
+footer,
+.page-wrap:after {
+	height: 55px;
+	/* however tall you want the footer to be */
 }
 
 footer {
