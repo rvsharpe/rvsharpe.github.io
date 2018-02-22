@@ -35,16 +35,13 @@ h4 {
 	/* removes default bold styles */
 	margin: 0;
 	/* removes default space */
-	text-indent: 10px;
 }
 
 h5 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	/* removes default bold styles */
-	margin-top: 0px;
-	margin-bottom: 15px;
-	text-indent: 10px;
+	margin: 0;
 
 }
 
@@ -70,6 +67,8 @@ main {
 .highlight {
 	color: #bf6d50;
 }
+
+
 
 /* HEADER STYLES
 -----------------------------------------*/
@@ -107,6 +106,7 @@ nav a {
 	color: #31B404;
 	padding: 2px;
 }
+
 
 /* HOME PAGE STYLES
 -----------------------------------------*/
