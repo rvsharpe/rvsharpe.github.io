@@ -1,0 +1,123 @@
+
+
+
+
+body {
+	font-family: "Open Sans", sans-serif;
+	color: #333333;
+	/* dark, almost black, gray colour */
+	margin: 0px 70px 0px 70px;
+
+}
+
+h1 {
+	padding-top: 0px;
+	margin-top: 0px;
+	font-size:27px;
+}
+h1,
+h2 {
+	font-weight: 300;
+
+}
+
+h4 {
+	font-weight: 700;
+}
+
+
+
+a {
+	text-decoration: none;
+	/* removes default underline */
+}
+
+a:hover {
+	background: #D8F6CE;
+}
+
+nav {
+	padding: 10px 0px 20px 0px;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+
+
+
+/* HEADER STYLES
+-----------------------------------------*/
+
+header h1 {
+	font-size: 48px;
+	padding: 30px 0px 0px 0px;
+	margin: 0px;
+
+
+
+}
+
+header h2 {
+	font-size: 26px;
+	padding: 0px 0px 18px 0px;
+	margin: 0px;
+
+
+}
+
+
+
+
+nav a {
+	color: #31B404;
+	padding: 2px;
+}
+
+
+/* ABOUT STYLES
+-----------------------------------------*/
+
+
+.other-img {
+	float: right;
+	margin-right: 20px;
+	width: 40%;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+  }
+
+
+
+
+/* FOOTER STYLES
+-----------------------------------------*/
+
+/* Sticky Footer - http://css-tricks.com/snippets/css/sticky-footer */
+
+.page-wrap {
+	min-height: 100%;
+	margin-bottom: -55px;
+	/* must be the same height as footer */
+}
+
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+
+footer,
+.page-wrap:after {
+	height: 55px;
+	/* however tall you want the footer to be */
+}
+
+footer {
+	clear: both;
+	background: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	font-size: 13px;
+	padding: 1px;
+}
