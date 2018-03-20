@@ -3,7 +3,7 @@
   http://ladieslearningcode.com
   http://christinatruong.com
 -------------------------------------------------------*/
-
+/*While em is relative to the font-size of its direct or nearest parent, rem is only relative to the html (root) font-size.'
 /* GLOBAL STYLES
 -----------------------------------------*/
 
@@ -32,16 +32,11 @@ h2 {
 h4 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
-	/* removes default bold styles */
-	margin: 0;
-	/* removes default space */
 }
 
 h5 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	/* removes default bold styles */
-	margin: 0;
 
 }
 
@@ -75,6 +70,7 @@ main {
 
 header h1 {
 	font-size: 48px;
+	padding: 0px;
 }
 
 header h2 {
